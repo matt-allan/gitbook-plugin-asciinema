@@ -18,7 +18,7 @@ You can now add Asciinema screencats to your book using this tag:
 ```markdown
 Take a look at this:
 
-{% asciinema %}https://asciinema.org/a/bxwffohsczswrxie2z3y9ex3n{% endasciinema %}
+{% asciinema %}bxwffohsczswrxie2z3y9ex3n{% endasciinema %}
 ```
 
 The asciinema will be replaced by the embed script in the website, and by a link in the ebook version.
