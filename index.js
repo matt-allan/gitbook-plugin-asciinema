@@ -9,7 +9,7 @@ module.exports = {
                     return '<img src="' + url + castId + '.png" alt="Asciinema screencast thumbnail" /><p><a href="' + url + castId + '">Screencast link</a></p>';
                 }
 
-                return '<div style="position: relative;padding-bottom: 56.25%;padding-top: 25px;height: 0;">'
+                return '<div style="comments-section">'
                 +'<script type="text/javascript" src="' + url + castId + '.js" id="asciicast-' + castId + '" async></script>'
                 +'</div>';
             }
